@@ -1,0 +1,56 @@
+--
+title       : Practical Machine Learning
+subtitle    : Project
+author      : Santiago Armida
+job         : Consultant
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+logo        : logoINFO.png
+---
+
+## Introduction
+THis study is the beggining of a big project to help the Medical and Health authorities and people to implement some kind of guide to people that migth become diabetic.
+It has information of DIABETES in Mexico and how big the problem is becoming.
+The information here is a very smple work to show if people is below the specified limit for the country.
+Further devolepment can show graph of the population with diabetes and were is the candidate in  respect to the population (Total and with diabetes)
+
+--- .class #id 
+
+## Slide
+###Practical Machine Learning
+Its the 9th course on a Data Science Specialization
+ATTACK
+--- 
+The code used  SEE iu.r server.R
+#```{r,run=FALSE}
+#shinyUI(pageWithSidebar( headerPanel("Illustrating markup"), sidebarPanel(
+#h1('Sidebar panel'), h1('H1 text'), h2('H2 Text'), h3('H3 Text'), h4('H4 Text')
+#), mainPanel(
+#) ))
+#h3('Main Panel text'), code('some code'), p('some ordinary text')
+#```
+---
+ 
+---
+---
+##Diabetes in Mexico: cost and management of diabetes and its complications and challenges for health policy 
+##Background
+Mexico has been experiencing some of the most rapid shifts ever recorded in dietary and physical activity patterns leading to obesity. Diabetes mellitus has played a crucial role causing nearly 14% of all deaths. We wanted to make a comprehensive study of the role of diabetes in terms of burden of disease, prevalence, cost of diabetes, cost of complications and health policy. 
+##Results
+There was a significant increase in the prevalence of diabetes from 1994 to 2006 with rising direct costs (2006: outpatient USD$ 717,764,787, inpatient USD$ 223,581,099) and indirect costs (2005: USD$ 177,220,390), and rising costs of complications (2010: Retinopathy USD$ 10,323,421; Cardiovascular disease USD$ 12,843,134; Nephropathy USD$ 81,814,501; Neuropathy USD$ 2,760,271; Peripheral vascular disease USD$ 2,042,601). The health policy focused on screening and the creation of self-support groups across the country. 
+##Conclusions
+The increasing diabetes mortality and lack of control among diagnosed patients make quality of treatment a major concern in Mexico. The growing prevalence of childhood and adult obesity and the metabolic syndrome suggest that the situation could be even worse in the coming years. The government has reacted strongly with national actions to address the growing burden posed by diabetes. However our research suggests that the prevalence and mortality of diabetes will continue to rise in the future. 
+---
+###BIBLIOGRAPHY
+Simon Barquera1, Ismael Campos-Nonato1*, Carlos Aguilar-Salinas2, Ruy Lopez-Ridaura1, Armando Arredondo1 and Juan Rivera-Dommarco1 
+* Corresponding author: Ismael Campos-Nonato icampos@insp.mx 
+Author Affiliations
+1 Centro de Investigación en Nutrición y Salud, Instituto Nacional de Salud Pública, Av. Universidad No. 655. Col. Sta. Ma. Ahuacatitlán, Cuernavaca, Mor, CP. 62508, Mexico, Mexico 
+2 Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, México, D.F, Mexico 
+NETDOCTOR.COM
+
+---
