@@ -20,7 +20,8 @@ shinyUI(fluidPage(
     mainPanel(
       #tableOutput("values"),
       h3('Results of prediction'),
-      h4('You entered'), verbatimTextOutput("glucose")
+      h4('You entered'), verbatimTextOutput("glucosein"),
+      h4('Prediction'),verbatimTextOutput("diabetesRisk")
     )
   )
 ))
